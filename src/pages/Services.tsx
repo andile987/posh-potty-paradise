@@ -5,7 +5,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTASection from "@/components/ui/CTASection";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Tool, Spray, Truck, Clock, CheckCircle } from "lucide-react";
+import { Wrench, Droplet, Truck, Clock, CheckCircle } from "lucide-react";
 
 const Services = () => {
   const maintenancePlans = [
@@ -70,13 +70,13 @@ const Services = () => {
             <TabsList className="grid w-full grid-cols-3 mb-8">
               <TabsTrigger value="maintenance" className="text-base">
                 <div className="flex flex-col items-center md:flex-row md:items-center">
-                  <Tool className="w-5 h-5 md:mr-2" />
+                  <Wrench className="w-5 h-5 md:mr-2" />
                   <span>Maintenance</span>
                 </div>
               </TabsTrigger>
               <TabsTrigger value="cleaning" className="text-base">
                 <div className="flex flex-col items-center md:flex-row md:items-center">
-                  <Spray className="w-5 h-5 md:mr-2" />
+                  <Droplet className="w-5 h-5 md:mr-2" />
                   <span>Cleaning</span>
                 </div>
               </TabsTrigger>
@@ -93,7 +93,7 @@ const Services = () => {
               <div className="grid grid-cols-1 gap-8">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex items-center mb-4">
-                    <Tool className="w-10 h-10 text-loofinity-teal mr-4" />
+                    <Wrench className="w-10 h-10 text-loofinity-teal mr-4" />
                     <h3 className="text-2xl font-bold text-gray-800">Regular Maintenance</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
@@ -139,7 +139,7 @@ const Services = () => {
               <div className="grid grid-cols-1 gap-8">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <div className="flex items-center mb-4">
-                    <Spray className="w-10 h-10 text-loofinity-teal mr-4" />
+                    <Droplet className="w-10 h-10 text-loofinity-teal mr-4" />
                     <h3 className="text-2xl font-bold text-gray-800">Deep Cleaning</h3>
                   </div>
                   <p className="text-gray-600 mb-6">

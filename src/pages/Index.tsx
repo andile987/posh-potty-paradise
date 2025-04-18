@@ -8,7 +8,7 @@ import ProductCard from "@/components/ui/ProductCard";
 import ServiceCard from "@/components/ui/ServiceCard";
 import TestimonialCard from "@/components/ui/TestimonialCard";
 import CTASection from "@/components/ui/CTASection";
-import { Truck, Spray, Tool, Recycle, Clock, Award, PiggyBank, ArrowRight, CalendarCheck, CheckCircle } from "lucide-react";
+import { Truck, Droplet, Wrench, Recycle, Clock, Award, PiggyBank, ArrowRight, CalendarCheck, CheckCircle } from "lucide-react";
 
 const featuredProducts = [
   {
@@ -55,14 +55,14 @@ const services = [
     id: "maintenance",
     title: "Regular Maintenance",
     description: "Professional maintenance services to keep your portable toilets in pristine condition.",
-    icon: <Tool size={48} />,
+    icon: <Wrench size={48} />,
     link: "/services#maintenance"
   },
   {
     id: "cleaning",
     title: "Deep Cleaning",
     description: "Thorough cleaning and sanitization using our premium chemical products.",
-    icon: <Spray size={48} />,
+    icon: <Droplet size={48} />,
     link: "/services#cleaning"
   },
   {

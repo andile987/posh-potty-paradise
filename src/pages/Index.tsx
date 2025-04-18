@@ -36,38 +36,42 @@ const featuredProducts = [
     id: "luxury-portable",
     name: "VIP Luxury Portable Toilet",
     image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    price: 2499.99,
+    price: 39999.99,
     rating: 4.9,
     category: "toilets",
     description: "Premium portable toilet with luxury amenities, perfect for upscale events.",
-    featured: true
+    featured: true,
+    location: "123 Main Road, Sandton, Johannesburg, 2196"
   },
   {
     id: "standard-portable",
     name: "Standard Portable Toilet",
     image: "https://images.unsplash.com/photo-1585332889055-87c9798e7082?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    price: 1299.99,
+    price: 24999.99,
     rating: 4.7,
     category: "toilets",
-    description: "Durable and reliable standard portable toilet for any setting."
+    description: "Durable and reliable standard portable toilet for any setting.",
+    location: "456 Beach Road, Sea Point, Cape Town, 8005"
   },
   {
     id: "eco-clean",
     name: "Eco-Clean Solution",
     image: "https://images.unsplash.com/photo-1584385529355-4e1b8d7bd507?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    price: 49.99,
+    price: 849.99,
     rating: 4.8,
     category: "chemicals",
-    description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste."
+    description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste.",
+    location: "789 Umhlanga Rocks Drive, Durban North, 4051"
   },
   {
     id: "fresh-scent",
     name: "Fresh Scent Deodorizer",
     image: "https://images.unsplash.com/photo-1556227702-d1e4e7b5c232?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    price: 29.99,
+    price: 499.99,
     rating: 4.6,
     category: "chemicals",
-    description: "Long-lasting deodorizer that keeps portable toilets smelling fresh."
+    description: "Long-lasting deodorizer that keeps portable toilets smelling fresh.",
+    location: "321 Pretorius Street, Pretoria Central, 0002"
   }
 ];
 
@@ -121,6 +125,17 @@ const testimonials = [
     rating: 4
   }
 ];
+
+const formatPrice = (price: number) => {
+  return new Intl.NumberFormat('en-ZA', {
+    style: 'currency',
+    currency: 'ZAR'
+  }).format(price);
+};
+
+const handleLocationClick = (address: string) => {
+  window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`, '_blank');
+};
 
 const Index = () => {
   return (
@@ -229,6 +244,7 @@ const Index = () => {
                 category={product.category}
                 description={product.description}
                 featured={product.featured}
+                location={product.location}
               />
             ))}
           </div>

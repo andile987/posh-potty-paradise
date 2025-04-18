@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { 
   Carousel,
   CarouselContent,
@@ -27,6 +27,27 @@ const ImageSlideshow: React.FC<ImageSlideshowProps> = ({
   autoplay = true,
   interval = 5000
 }) => {
+  const timerRef = useRef<NodeJS.Timeout>();
+
+  useEffect(() => {
+    if (autoplay) {
+      const carousel = document.querySelector('[role="region"]');
+      const next = carousel?.querySelector('button[aria-label="Next slide"]');
+      
+      timerRef.current = setInterval(() => {
+        if (next instanceof HTMLButtonElement) {
+          next.click();
+        }
+      }, interval);
+    }
+
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+      }
+    };
+  }, [autoplay, interval]);
+
   return (
     <Carousel
       className={cn("w-full", className)}
@@ -37,12 +58,12 @@ const ImageSlideshow: React.FC<ImageSlideshowProps> = ({
     >
       <CarouselContent>
         {images.map((image, index) => (
-          <CarouselItem key={index} className="relative">
+          <CarouselItem key={index} className="relative transition-all duration-300 ease-in-out">
             <div className="aspect-[16/9] overflow-hidden rounded-lg">
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
               {(image.title || image.description) && (
                 <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4">

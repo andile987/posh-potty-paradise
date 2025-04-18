@@ -45,17 +45,13 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-1">
-          <Link to="/" className={`px-3 py-2 rounded-md ${
-            isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-          }`}>
+          <Link to="/" className="px-3 py-2 rounded-md text-black hover:text-loofinity-teal">
             Home
           </Link>
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className={`px-3 py-2 rounded-md flex items-center ${
-                isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-              }`}>
+              <button className="px-3 py-2 rounded-md flex items-center text-black hover:text-loofinity-teal">
                 Products <ChevronDown size={16} className="ml-1" />
               </button>
             </DropdownMenuTrigger>
@@ -73,38 +69,31 @@ const Navbar = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Link to="/rental" className={`px-3 py-2 rounded-md ${
-            isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-          }`}>
+          <Link to="/rental" className="px-3 py-2 rounded-md text-black hover:text-loofinity-teal">
             Rental
           </Link>
           
-          <Link to="/services" className={`px-3 py-2 rounded-md ${
-            isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-          }`}>
+          <Link to="/services" className="px-3 py-2 rounded-md text-black hover:text-loofinity-teal">
             Services
           </Link>
           
-          <Link to="/about" className={`px-3 py-2 rounded-md ${
-            isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-          }`}>
+          <Link to="/about" className="px-3 py-2 rounded-md text-black hover:text-loofinity-teal">
             About Us
           </Link>
           
-          <Link to="/contact" className={`px-3 py-2 rounded-md ${
-            isScrolled ? "text-gray-700 hover:text-loofinity-teal" : "text-white hover:text-loofinity-light"
-          }`}>
+          <Link to="/contact" className="px-3 py-2 rounded-md text-black hover:text-loofinity-teal">
             Contact
           </Link>
         </div>
 
-      <div className="hidden md:block">
-        <Link to="/rental">
-          <Button className="bg-loofinity-accent hover:bg-amber-500 text-white">
-            <Phone size={18} className="mr-2" /> Get a Quote
-          </Button>
-        </Link>
-      </div>
+        <div className="hidden md:block">
+          <Link to="/rental">
+            <Button className="bg-loofinity-accent hover:bg-amber-500">
+              <Phone size={18} className="mr-2" /> 
+              <span className="text-[#F2FCE2]">Get a Quote</span>
+            </Button>
+          </Link>
+        </div>
 
         {/* Mobile menu button */}
         <button

@@ -161,7 +161,7 @@ const Index = () => {
                 </Button>
               </Link>
               <Link to="/rental">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-loofinity-teal">
+                <Button size="lg" variant="outline" className="border-white text-black hover:bg-white hover:text-loofinity-teal">
                   Rental Options
                 </Button>
               </Link>
@@ -321,7 +321,7 @@ const Index = () => {
               
               <div className="mt-8">
                 <Link to="/rental">
-                  <Button size="lg" className="bg-loofinity-accent hover:bg-amber-500 text-white">
+                  <Button size="lg" className="bg-loofinity-accent hover:bg-amber-500 text-black">
                     <CalendarCheck className="mr-2 h-5 w-5" /> View Rental Options
                   </Button>
                 </Link>

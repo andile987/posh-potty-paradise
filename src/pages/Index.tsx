@@ -141,7 +141,7 @@ const Index = () => {
   return (
     <PageWrapper>
       {/* Hero Section with Slideshow */}
-      <section className="min-h-screen flex items-center relative">
+      <section className="min-h-screen flex items-center relative pt-16"> {/* Added pt-16 to account for navbar */}
         <div className="absolute inset-0">
           <ImageSlideshow images={slideshowImages} />
         </div>

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
@@ -10,25 +11,10 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <nav
-      className={`fixed w-full z-[100] transition-all duration-300 backdrop-blur-sm ${
-        isScrolled
-          ? "bg-white/90 shadow-md py-2"
-          : "bg-transparent py-4"
-      }`}
-    >
+    <nav className="fixed w-full z-[100] bg-white shadow-md py-2">
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <img 
@@ -36,9 +22,7 @@ const Navbar = () => {
             alt="Loofinity" 
             className="h-10 md:h-12" 
           />
-          <span className={`text-2xl font-bold ${
-            isScrolled ? "text-loofinity-teal" : "text-white"
-          }`}>
+          <span className="text-2xl font-bold text-loofinity-teal">
             Loofinity
           </span>
         </Link>
@@ -90,7 +74,7 @@ const Navbar = () => {
           <Link to="/rental">
             <Button className="bg-loofinity-accent hover:bg-amber-500">
               <Phone size={18} className="mr-2" /> 
-              <span className="text-[#F2FCE2]">Get a Quote</span>
+              <span className="text-black">Get a Quote</span>
             </Button>
           </Link>
         </div>
@@ -101,9 +85,9 @@ const Navbar = () => {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
-            <X size={24} className={isScrolled ? "text-gray-700" : "text-white"} />
+            <X size={24} className="text-gray-700" />
           ) : (
-            <Menu size={24} className={isScrolled ? "text-gray-700" : "text-white"} />
+            <Menu size={24} className="text-gray-700" />
           )}
         </button>
       </div>
@@ -161,7 +145,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <Button className="bg-loofinity-accent hover:bg-amber-500 text-white">
+            <Button className="bg-loofinity-accent hover:bg-amber-500 text-black">
               <Phone size={18} className="mr-2" /> Get a Quote
             </Button>
           </div>

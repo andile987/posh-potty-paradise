@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
@@ -24,9 +23,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      className={`fixed w-full z-[100] transition-all duration-300 backdrop-blur-sm ${
         isScrolled
-          ? "bg-white shadow-md py-2"
+          ? "bg-white/90 shadow-md py-2"
           : "bg-transparent py-4"
       }`}
     >
@@ -99,11 +98,13 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="hidden md:block">
+      <div className="hidden md:block">
+        <Link to="/rental">
           <Button className="bg-loofinity-accent hover:bg-amber-500 text-white">
             <Phone size={18} className="mr-2" /> Get a Quote
           </Button>
-        </div>
+        </Link>
+      </div>
 
         {/* Mobile menu button */}
         <button

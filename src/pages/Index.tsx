@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -8,7 +7,29 @@ import ProductCard from "@/components/ui/ProductCard";
 import ServiceCard from "@/components/ui/ServiceCard";
 import TestimonialCard from "@/components/ui/TestimonialCard";
 import CTASection from "@/components/ui/CTASection";
+import ImageSlideshow from "@/components/ui/ImageSlideshow";
 import { Truck, Droplet, Wrench, Recycle, Clock, Award, PiggyBank, ArrowRight, CalendarCheck, CheckCircle } from "lucide-react";
+
+const slideshowImages = [
+  {
+    src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+    alt: "VIP Luxury Portable Toilet",
+    title: "Premium Mobile Solutions",
+    description: "Experience luxury and comfort with our VIP portable toilets"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1585332889055-87c9798e7082?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+    alt: "Standard Portable Toilet",
+    title: "Reliable Standard Units",
+    description: "Durable and clean portable toilets for any event"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1584385529355-4e1b8d7bd507?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+    alt: "Eco-Clean Solution",
+    title: "Eco-Friendly Cleaning",
+    description: "Environmentally conscious cleaning solutions"
+  }
+];
 
 const featuredProducts = [
   {
@@ -104,8 +125,11 @@ const testimonials = [
 const Index = () => {
   return (
     <PageWrapper>
-      {/* Hero Section */}
-      <section className="hero-gradient min-h-screen flex items-center relative">
+      {/* Hero Section with Slideshow */}
+      <section className="min-h-screen flex items-center relative">
+        <div className="absolute inset-0">
+          <ImageSlideshow images={slideshowImages} />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-loofinity-teal to-transparent opacity-80"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">

@@ -20,6 +20,7 @@ interface Product {
   rating: number;
   category: string;
   description: string;
+  location: string;
   featured?: boolean;
 }
 
@@ -39,6 +40,7 @@ const Products = () => {
           rating: 4.9,
           category: "toilets",
           description: "Premium portable toilet with luxury amenities, perfect for upscale events.",
+          location: "Johannesburg, Gauteng",
           featured: true
         },
         {
@@ -48,7 +50,8 @@ const Products = () => {
           price: 1299.99,
           rating: 4.7,
           category: "toilets",
-          description: "Durable and reliable standard portable toilet for any setting."
+          description: "Durable and reliable standard portable toilet for any setting.",
+          location: "Cape Town, Western Cape"
         },
         {
           id: "ada-compliant",
@@ -57,7 +60,8 @@ const Products = () => {
           price: 1899.99,
           rating: 4.8,
           category: "toilets",
-          description: "Accessible portable toilet designed to meet ADA specifications for handicap accessibility."
+          description: "Accessible portable toilet designed to meet ADA specifications for handicap accessibility.",
+          location: "Durban, KwaZulu-Natal"
         },
         {
           id: "trailer-restroom",
@@ -66,7 +70,8 @@ const Products = () => {
           price: 7999.99,
           rating: 5.0,
           category: "toilets",
-          description: "High-end restroom trailer with multiple stalls, sinks, air conditioning, and premium fixtures."
+          description: "High-end restroom trailer with multiple stalls, sinks, air conditioning, and premium fixtures.",
+          location: "Pretoria, Gauteng"
         },
         {
           id: "compact-portable",
@@ -75,7 +80,8 @@ const Products = () => {
           price: 899.99,
           rating: 4.5,
           category: "toilets",
-          description: "Space-saving portable toilet ideal for areas with limited space without sacrificing comfort."
+          description: "Space-saving portable toilet ideal for areas with limited space without sacrificing comfort.",
+          location: "Port Elizabeth, Eastern Cape"
         },
         {
           id: "solar-powered",
@@ -84,7 +90,8 @@ const Products = () => {
           price: 3299.99,
           rating: 4.7,
           category: "toilets",
-          description: "Eco-friendly portable toilet with solar-powered lighting and ventilation systems."
+          description: "Eco-friendly portable toilet with solar-powered lighting and ventilation systems.",
+          location: "Bloemfontein, Free State"
         }
       ]
     },
@@ -99,7 +106,8 @@ const Products = () => {
           price: 49.99,
           rating: 4.8,
           category: "chemicals",
-          description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste."
+          description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste.",
+          location: "Stellenbosch, Western Cape"
         },
         {
           id: "fresh-scent",
@@ -108,7 +116,8 @@ const Products = () => {
           price: 29.99,
           rating: 4.6,
           category: "chemicals",
-          description: "Long-lasting deodorizer that keeps portable toilets smelling fresh."
+          description: "Long-lasting deodorizer that keeps portable toilets smelling fresh.",
+          location: "Kimberley, Northern Cape"
         },
         {
           id: "heavy-duty-cleaner",
@@ -117,7 +126,8 @@ const Products = () => {
           price: 59.99,
           rating: 4.9,
           category: "chemicals",
-          description: "Industrial-strength cleaner for deep cleaning and sanitizing portable toilets."
+          description: "Industrial-strength cleaner for deep cleaning and sanitizing portable toilets.",
+          location: "East London, Eastern Cape"
         },
         {
           id: "winterizing-additive",
@@ -126,7 +136,8 @@ const Products = () => {
           price: 64.99,
           rating: 4.7,
           category: "chemicals",
-          description: "Special formula to prevent freezing in portable toilets during cold weather."
+          description: "Special formula to prevent freezing in portable toilets during cold weather.",
+          location: "Nelspruit, Mpumalanga"
         },
         {
           id: "enzyme-treatment",
@@ -135,7 +146,8 @@ const Products = () => {
           price: 39.99,
           rating: 4.8,
           category: "chemicals",
-          description: "Biological enzyme treatment for natural breakdown of waste and elimination of odors."
+          description: "Biological enzyme treatment for natural breakdown of waste and elimination of odors.",
+          location: "Polokwane, Limpopo"
         },
         {
           id: "maintenance-kit",
@@ -144,7 +156,8 @@ const Products = () => {
           price: 119.99,
           rating: 5.0,
           category: "chemicals",
-          description: "All-in-one kit with cleaning solutions, deodorizers, and tools for portable toilet maintenance."
+          description: "All-in-one kit with cleaning solutions, deodorizers, and tools for portable toilet maintenance.",
+          location: "Rustenburg, North West"
         }
       ]
     }
@@ -179,6 +192,7 @@ const Products = () => {
                 rating={product.rating}
                 category={product.category}
                 description={product.description}
+                location={product.location}
                 featured={product.featured}
               />
             ))}

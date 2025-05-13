@@ -12,9 +12,15 @@ import { Truck, Droplet, Wrench, Recycle, Clock, Award, PiggyBank, ArrowRight, C
 
 const slideshowImages = [
   {
+    src: "https://servicecore.com/wp-content/uploads/2024/04/3roomUnit-1920x960-1.jpg",
+    alt: "Three Room Service Unit",
+    title: "Premium Mobile Solutions",
+    description: "Experience luxury and comfort with our multi-room service units"
+  },
+  {
     src: "https://loohire.co.za/wp-content/uploads/2022/09/COMPACT-23-copy.jpg",
     alt: "VIP Luxury Portable Toilet",
-    title: "Premium Mobile Solutions",
+    title: "Luxury Portable Units",
     description: "Experience luxury and comfort with our VIP portable toilets"
   },
   {
@@ -22,12 +28,6 @@ const slideshowImages = [
     alt: "Standard Portable Toilet",
     title: "Reliable Standard Units",
     description: "Durable and clean portable toilets for any event"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1584385529355-4e1b8d7bd507?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
-    alt: "Eco-Clean Solution",
-    title: "Eco-Friendly Cleaning",
-    description: "Environmentally conscious cleaning solutions"
   }
 ];
 

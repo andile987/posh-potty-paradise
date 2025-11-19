@@ -1,11 +1,12 @@
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { 
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import { cn } from "@/lib/utils";
 
@@ -27,29 +28,26 @@ const ImageSlideshow: React.FC<ImageSlideshowProps> = ({
   autoplay = true,
   interval = 5000
 }) => {
+  const [api, setApi] = useState<CarouselApi>();
   const timerRef = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
-    if (autoplay) {
-      const carousel = document.querySelector('[role="region"]');
-      const next = carousel?.querySelector('button[aria-label="Next slide"]');
-      
-      timerRef.current = setInterval(() => {
-        if (next instanceof HTMLButtonElement) {
-          next.click();
-        }
-      }, interval);
-    }
+    if (!api || !autoplay) return;
+
+    timerRef.current = setInterval(() => {
+      api.scrollNext();
+    }, interval);
 
     return () => {
       if (timerRef.current) {
         clearInterval(timerRef.current);
       }
     };
-  }, [autoplay, interval]);
+  }, [api, autoplay, interval]);
 
   return (
     <Carousel
+      setApi={setApi}
       className={cn("w-full", className)}
       opts={{
         align: "start",

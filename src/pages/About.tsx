@@ -26,7 +26,7 @@ const About = () => {
       bio: "David leads our product development initiatives, designing innovative portable toilet solutions with a focus on comfort, sustainability, and functionality."
     },
     {
-      name: "Emily Williams",
+      name: "Andile Mthimkulu",
       position: "Customer Relations",
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Emily heads our customer service team, ensuring client satisfaction and building lasting relationships with our valued customers."

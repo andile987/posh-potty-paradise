@@ -18,7 +18,7 @@ const slideshowImages = [
     description: "Experience luxury and comfort with our multi-room service units"
   },
   {
-    src: "https://loohire.co.za/wp-content/uploads/2022/09/COMPACT-23-copy.jpg",
+    src: "https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/487464037_1131613782313441_6885626981469448967_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHJVCqoQvnMt20zN4DmqdJcQR6bWmO9M1tBHptaY70zW-0e9B4WytVBFBZLeYWBCf_vWJQLjtE2-M33o5XVpNrS&_nc_ohc=pY1LNrIwUEYQ7kNvwFDYQgl&_nc_oc=Adko37_CZYqILwgCYDJpaMuXP3IizC6Yv1y_mFvIor4tbBLGwir4zOfpgPo4AP5id4Y&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=K0sQFf5YNkoeMoaoPn7qOQ&oh=00_Afn5oR3KSY4mXQvsgy9ykQ77mkNRuuX4LyNK_SKx4pG5gw&oe=6936236B",
     alt: "VIP Luxury Portable Toilet",
     title: "Luxury Portable Units",
     description: "Experience luxury and comfort with our VIP portable toilets"

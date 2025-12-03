@@ -34,24 +34,24 @@ const slideshowImages = [
 const featuredProducts = [
   {
     id: "luxury-portable",
-    name: "VIP Luxury Portable Toilet",
+    name: "VIP Luxury Mobile Toilet",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1nXxUPNmQonzVdsduqSRw-7PtGQzFQvNWw&s",
-    price: 39999.99,
+    price: 54999.99,
     rating: 4.9,
     category: "toilets",
     description: "Premium portable toilet with luxury amenities, perfect for upscale events.",
     featured: true,
-    location: "123 Main Road, Sandton, Johannesburg, 2196"
+    location: "276 Brand Road, President Park, Midrand, Gauteng"
   },
   {
     id: "standard-portable",
-    name: "Standard Portable Toilet",
-    image: "https://images.unsplash.com/photo-1585332889055-87c9798e7082?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    price: 24999.99,
+    name: "Single Vip Toilet",
+    image: "https://scontent.fjnb9-1.fna.fbcdn.net/v/t39.30808-6/472398745_1118101413134609_2745861918873941668_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHgJjUAC439Z7UFUGd-HyRxcPfmM7mwRPRw9-YzubBE9F5H5COxbCCxa20VgiGFhy8bGNZeUSKjxmMRcGgNIugt&_nc_ohc=i-dGs2nJH4cQ7kNvwHtsTq5&_nc_oc=AdlmoLO3PXzoMNXP1wQov_vwclhSSug8FeRZBSXmRph5jnRCjjeaFqncYX-ogx49mxg&_nc_zt=23&_nc_ht=scontent.fjnb9-1.fna&_nc_gid=PzqCbdoqaPQT_jozEv15Ow&oh=00_AflA-W0fwb3oKFp9V6DensqVxmsOddFRO_bll4g4wgL79g&oe=69364340",
+    price: 39999.99,
     rating: 4.7,
     category: "toilets",
     description: "Durable and reliable standard portable toilet for any setting.",
-    location: "456 Beach Road, Sea Point, Cape Town, 8005"
+    location: "276 Brand Road, President Park, Midrand, Gauteng"
   },
   {
     id: "eco-clean",
@@ -61,7 +61,7 @@ const featuredProducts = [
     rating: 4.8,
     category: "chemicals",
     description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste.",
-    location: "789 Umhlanga Rocks Drive, Durban North, 4051"
+    location: "276 Brand Road, President Park, Midrand, Gauteng"
   },
   {
     id: "fresh-scent",
@@ -71,7 +71,7 @@ const featuredProducts = [
     rating: 4.6,
     category: "chemicals",
     description: "Long-lasting deodorizer that keeps portable toilets smelling fresh.",
-    location: "321 Pretorius Street, Pretoria Central, 0002"
+    location: "276 Brand Road, President Park, Midrand, Gauteng"
   }
 ];
 

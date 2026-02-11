@@ -55,7 +55,7 @@ const featuredProducts = [
   },
   {
     id: "eco-clean",
-    name: "Eco-Clean Solution",
+    name: "Disable Vip Toilet",
     image: "single_vip.png",
     price: 849.99,
     rating: 4.8,
@@ -66,7 +66,7 @@ const featuredProducts = [
   {
     id: "fresh-scent",
     name: "Fresh Scent Deodorizer",
-    image: "https://images.unsplash.com/photo-1556227702-d1e4e7b5c232?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "fresh.jpg",
     price: 499.99,
     rating: 4.6,
     category: "chemicals",

@@ -97,7 +97,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
-                <span>info@loofinity.com</span>
+                <span>andilehlubimthimkulu@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Clock size={18} className="mr-2 mt-1 flex-shrink-0" />

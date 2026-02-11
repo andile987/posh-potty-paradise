@@ -36,7 +36,7 @@ const Products = () => {
           id: "luxury-portable",
           name: "VIP Luxury Portable Toilet",
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1nXxUPNmQonzVdsduqSRw-7PtGQzFQvNWw&s",
-          price: 2499.99,
+          price: 54999.99,
           rating: 4.9,
           category: "toilets",
           description: "Premium portable toilet with luxury amenities, perfect for upscale events.",

@@ -56,7 +56,7 @@ const featuredProducts = [
   {
     id: "eco-clean",
     name: "Eco-Clean Solution",
-    image: "https://images.unsplash.com/photo-1584385529355-4e1b8d7bd507?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "single_vip.png",
     price: 849.99,
     rating: 4.8,
     category: "chemicals",

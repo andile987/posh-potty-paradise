@@ -56,7 +56,7 @@ const featuredProducts = [
   {
     id: "eco-clean",
     name: "Disable Vip Toilet",
-    image: "single_vip.png",
+    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/633795499_1401295118678638_67802280610727921_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGOcOtSDQGPZYx2YGFxtdZD4-E43WRjbUfj4TjdZGNtR1qq3DyhK6BiwAQ4UHtgVnc0MeW6-qHAhw4Zd0CPGefC&_nc_ohc=BTr7kLnKLi4Q7kNvwFEAnrX&_nc_oc=AdlzzUCYJWB17rVgGvCf8jBGAXTs3OCq-kSdCkW9mTIsam57vf9QhLRIYjMa8DvTXlw&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=NggdJF5cvr1PM8ndmXK2Hg&oh=00_AfsMJ2YGBUvjrE796Bra_dppX9oHJuI5PQhUrihpSOa-Lg&oe=6992E412",
     price: 849.99,
     rating: 4.8,
     category: "chemicals",

@@ -46,7 +46,7 @@ const featuredProducts = [
   {
     id: "standard-portable",
     name: "Single Vip Toilet",
-    image: "single.png",
+    image: "single_toilet.png",
     price: 39999.99,
     rating: 4.7,
     category: "toilets",
@@ -56,7 +56,7 @@ const featuredProducts = [
   {
     id: "eco-clean",
     name: "Eco-Clean Solution",
-    image: "single.png",
+    image: "single_vip.png",
     price: 849.99,
     rating: 4.8,
     category: "chemicals",

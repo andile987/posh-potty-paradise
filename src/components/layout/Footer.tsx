@@ -104,7 +104,7 @@ const Footer = () => {
                 <span>
                   Monday - Friday: 8am - 6pm<br />
                   Saturday: 9am - 4pm<br />
-                  Sunday: Closed
+                  Sunday: Open by appointment only
                 </span>
               </li>
             </ul>

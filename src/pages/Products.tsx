@@ -35,7 +35,7 @@ const Products = () => {
         {
           id: "luxury-portable",
           name: "VIP Luxury Portable Toilet",
-          image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1nXxUPNmQonzVdsduqSRw-7PtGQzFQvNWw&s",
           price: 2499.99,
           rating: 4.9,
           category: "toilets",

@@ -46,7 +46,7 @@ const featuredProducts = [
   {
     id: "standard-portable",
     name: "Single Vip Toilet",
-    image: "single_2.png",
+    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/632350374_1401274122014071_3269262869332712042_n.jpg?stp=dst-jpg_s565x565_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFGChvn4ekA2_gsqMOkZtf-JuVkNlKi2VYm5WQ2UqLZVjH5act7lbVwVBsxgFG2WYAd6doTiY-mck-RpBaaFjkT&_nc_ohc=Yw3Wj5P41NQQ7kNvwHdwkUh&_nc_oc=AdlW-FloN1hfoxk23WsgS-cQ-T3gJ3G2ulI1_jsrU8aVjE93yXay_ZthCkj82Kki0gg&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=_fjpjDu6Cz2lC_1vukXz-w&oh=00_AftXA-vAId1TF3BFSjV9zrknBr-wtgh8Awovxpc9xEyUYg&oe=6992DF9A",
     price: 39999.99,
     rating: 4.7,
     category: "toilets",

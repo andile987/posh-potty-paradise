@@ -46,7 +46,7 @@ const featuredProducts = [
   {
     id: "standard-portable",
     name: "Single Vip Toilet",
-    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/632350374_1401274122014071_3269262869332712042_n.jpg?stp=dst-jpg_s565x565_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFGChvn4ekA2_gsqMOkZtf-JuVkNlKi2VYm5WQ2UqLZVjH5act7lbVwVBsxgFG2WYAd6doTiY-mck-RpBaaFjkT&_nc_ohc=Yw3Wj5P41NQQ7kNvwHdwkUh&_nc_oc=AdlW-FloN1hfoxk23WsgS-cQ-T3gJ3G2ulI1_jsrU8aVjE93yXay_ZthCkj82Kki0gg&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=_fjpjDu6Cz2lC_1vukXz-w&oh=00_AftXA-vAId1TF3BFSjV9zrknBr-wtgh8Awovxpc9xEyUYg&oe=6992DF9A",
+    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/633857073_1401276962013787_4223166535954921383_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGuB4WNB7HS-zkpx5VEw_5kRnOTUlt-3-xGc5NSW37f7Lz5dyd0enI0nkjMqNQxl4TYCxjW--2MgmmZmta6efnh&_nc_ohc=ePFPkaDXWWoQ7kNvwEeq88j&_nc_oc=Adn0-I_C1QjIJJIt-pU_GhIsO-LnpIUcflvNWGDu7k09zJSKUEbdPpasBF44MDjZd3Q&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=hA2IYcNLfnDS5F8pQDGHKA&oh=00_Afu5gKXPewDqjFFmIsehMrj1DxNPTWQZ4Eas38-pewmhuA&oe=6992BBA7",
     price: 39999.99,
     rating: 4.7,
     category: "toilets",

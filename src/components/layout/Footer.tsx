@@ -87,13 +87,13 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  123 Sanitation Drive,<br />
-                  Clean City, CL 12345
+                  276 Brand Road, President Park,<br />
+                  Midrand, Gauteng
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>+27732266171</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />

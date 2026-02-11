@@ -204,7 +204,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-loofinity-teal mt-1 mr-3" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p>info@loofinity.com</p>
+                      <p>andilehlubimthimkulu@gmail.com</p>
                     </div>
                   </div>
                   

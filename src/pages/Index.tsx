@@ -24,7 +24,7 @@ const slideshowImages = [
     description: "Experience luxury and comfort with our VIP portable toilets"
   },
   {
-    src: "loof_im_cop.png",
+    src: "https://chatgpt.com/backend-api/estuary/content?id=file_000000004928722f86155e04fdb67f70&ts=491899&p=fs&cid=1&sig=4436d6aa5f9cecce96b1bdfb21d7e814c78aab95142c9f258c4a172858202d54&v=0",
     alt: "Standard Portable Toilet",
     title: "Reliable Standard Units",
     description: "Durable and clean portable toilets for any event"

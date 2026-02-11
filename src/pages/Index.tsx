@@ -46,7 +46,7 @@ const featuredProducts = [
   {
     id: "standard-portable",
     name: "Single Vip Toilet",
-    image: "",
+    image: "single_vip.png",
     price: 39999.99,
     rating: 4.7,
     category: "toilets",

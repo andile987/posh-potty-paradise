@@ -24,7 +24,7 @@ const slideshowImages = [
     description: "Experience luxury and comfort with our VIP portable toilets"
   },
   {
-    src: "https://scontent.fjnb9-1.fna.fbcdn.net/v/t39.30808-6/491934575_1149547243853428_8870650864022344274_n.png?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGyIZs3tcCMkdeV6W12_TfeHXKRzoJ9DtgdcpHOgn0O2ODFmlULhdB0Or8VN4qe3fFgpCrIVtT1gjpNOrxf6nOU&_nc_ohc=3vm4HdNsgzMQ7kNvwHAk6Te&_nc_oc=AdlOo-pjhE6zg6y8bU7rGfGUE_oQdUg4htAXkq-FLX-fP0cDk9_8yJwxGHvjIdcsx2U&_nc_zt=23&_nc_ht=scontent.fjnb9-1.fna&_nc_gid=5wouiNzlDwK_42xUxJmiiw&oh=00_AftcDragOeApPgPcI7sWWNuT-3VPUSW60idqq_Nyk-uELg&oe=6992A28A",
+    src: "loof_im_cop.png",
     alt: "Standard Portable Toilet",
     title: "Reliable Standard Units",
     description: "Durable and clean portable toilets for any event"

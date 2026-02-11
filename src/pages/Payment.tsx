@@ -63,17 +63,17 @@ const Payment = () => {
     },
   });
 
-  const onSubmit = (values: z.infer<typeof formSchema>) => {
-    console.log(values);
+  const onSubmit = (_values: z.infer<typeof formSchema>) => {
+    // DEMO ONLY: Never log or process card details client-side in production.
+    // Integrate a PCI-compliant payment gateway (e.g. Stripe, PayFast) for real transactions.
     setIsProcessing(true);
 
-    // Simulate payment processing
     setTimeout(() => {
       setIsProcessing(false);
       setPaymentComplete(true);
       toast({
-        title: "Payment Successful",
-        description: "Your order has been processed successfully!",
+        title: "Payment Successful (Demo)",
+        description: "This is a demo. No real payment was processed.",
       });
     }, 2000);
   };
@@ -185,6 +185,9 @@ const Payment = () => {
                 <CardHeader>
                   <CardTitle>Payment Details</CardTitle>
                   <CardDescription>Enter your card information securely</CardDescription>
+                  <div className="mt-2 rounded-md bg-amber-50 border border-amber-200 p-3 text-sm text-amber-800">
+                    ⚠️ <strong>DEMO ONLY</strong> — Do not enter real card details. This form is for demonstration purposes only.
+                  </div>
                 </CardHeader>
                 <CardContent>
                   <Form {...form}>

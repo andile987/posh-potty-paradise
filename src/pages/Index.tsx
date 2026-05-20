@@ -8,6 +8,7 @@ import ServiceCard from "@/components/ui/ServiceCard";
 import TestimonialCard from "@/components/ui/TestimonialCard";
 import CTASection from "@/components/ui/CTASection";
 import ImageSlideshow from "@/components/ui/ImageSlideshow";
+import MaintenanceDialog from "@/components/MaintenanceDialog";
 import { Truck, Droplet, Wrench, Recycle, Clock, Award, PiggyBank, ArrowRight, CalendarCheck, CheckCircle } from "lucide-react";
 
 const slideshowImages = [
@@ -140,6 +141,7 @@ const handleLocationClick = (address: string) => {
 const Index = () => {
   return (
     <PageWrapper>
+      <MaintenanceDialog />
       {/* Hero Section with Slideshow */}
       <section className="min-h-screen flex items-center relative pt-16"> {/* Added pt-16 to account for navbar */}
         <div className="absolute inset-0">

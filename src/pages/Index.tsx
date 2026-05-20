@@ -56,7 +56,7 @@ const featuredProducts = [
   {
     id: "eco-clean",
     name: "Eco-Clean",
-    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/632980704_1401303945344422_4752528796502700078_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGkFM-2Aj8enJj0305boasr5PTKP4jt1n3k9Mo_iO3WfaE3Czx0emey3hgt0tjoNqnWNPqpvcFeGhuWvjsc6VzL&_nc_ohc=UMkw-joPtfUQ7kNvwHYG2oH&_nc_oc=Adm9vkPtqAEecvHCoblHG_IMel-ztXGRFk19cp27oGmQ8UoDtVPwgIIfBfQSeqYAd7E&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=-qmBXO97SlH0GE1-v_YZeQ&oh=00_AfvHj7wRMPApEeRqXbAX6j8y0ZgSn47gCft8KgInw7pghA&oe=6992D54E",
+    image: "https://scontent.fjnb9-1.fna.fbcdn.net/v/t39.30808-6/632980704_1401303945344422_4752528796502700078_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGkFM-2Aj8enJj0305boasr5PTKP4jt1n3k9Mo_iO3WfaE3Czx0emey3hgt0tjoNqnWNPqpvcFeGhuWvjsc6VzL&_nc_ohc=C7t5xQVZ-HMQ7kNvwFISJ7Z&_nc_oc=AdoowKSLLBEoyqUy3KfXqhKFUQnZsT82tIhAZzGkEkLRB4VaROAd2yV8yjYLr4Y8OYA&_nc_zt=23&_nc_ht=scontent.fjnb9-1.fna&_nc_gid=Y_jgQM5ocHI_Nn5DACU4XA&_nc_ss=7b2a8&oh=00_Af6APTf0iI4GCgqQ7hDAaV0DLuQt8pQ66a_-OK9Q-kgJ-A&oe=6A13274E",
     price: 849.99,
     rating: 4.8,
     category: "chemicals",

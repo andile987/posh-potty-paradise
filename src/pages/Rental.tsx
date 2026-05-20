@@ -10,7 +10,7 @@ const Rental = () => {
   const rentalOptions = [
     {
       title: "Standard Weekend",
-      price: 199,
+      price:R199,
       period: "per weekend",
       features: [
         "1 Standard Portable Toilet",
@@ -23,7 +23,7 @@ const Rental = () => {
     },
     {
       title: "Premium Event",
-      price: 499,
+      price:R499,
       period: "per event",
       features: [
         "1 Luxury Portable Toilet",
@@ -37,7 +37,7 @@ const Rental = () => {
     },
     {
       title: "Construction",
-      price: 799,
+      price: R1500,
       period: "per month",
       features: [
         "2 Standard Portable Toilets",

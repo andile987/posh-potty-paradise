@@ -6,33 +6,6 @@ import CTASection from "@/components/ui/CTASection";
 import { Smile, Users, Target, Heart } from "lucide-react";
 
 const About = () => {
-  const team = [
-    {
-      name: "Xolani Nxumalo",
-      position: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-      bio: "With over 15 years in the sanitation industry, Michael founded Loofinity with a vision to elevate the portable toilet experience through quality and innovation."
-    },
-    {
-      name: "Mbali Khumalo",
-      position: "Operations Director",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-      bio: "Sarah ensures the smooth operation of our delivery, maintenance, and customer service teams, maintaining our high standards of excellence."
-    },
-    {
-      name: "Luyanda Sikhosana",
-      position: "Product Development",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-      bio: "David leads our product development initiatives, designing innovative portable toilet solutions with a focus on comfort, sustainability, and functionality."
-    },
-    {
-      name: "Andile Mthimkulu",
-      position: "Customer Relations",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-      bio: "Emily heads our customer service team, ensuring client satisfaction and building lasting relationships with our valued customers."
-    }
-  ];
-  
   return (
     <PageWrapper>
       {/* Header */}

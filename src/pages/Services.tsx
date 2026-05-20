@@ -12,7 +12,7 @@ const Services = () => {
     {
       title: "Standard",
       description: "Regular maintenance for occasional-use toilets",
-      price: "R1499.99",
+      price: "R1499",
       period: "per service",
       features: [
         "Waste removal",
@@ -24,7 +24,7 @@ const Services = () => {
     {
       title: "Premium",
       description: "Thorough maintenance for high-traffic facilities",
-      price: "R1999.99",
+      price: "R1999",
       period: "per service",
       features: [
         "Everything in Standard",
@@ -37,7 +37,7 @@ const Services = () => {
     {
       title: "Deluxe",
       description: "Comprehensive service for luxury portable toilets",
-      price: "R2499.99",
+      price: "R2499",
       period: "per service",
       features: [
         "Everything in Premium",

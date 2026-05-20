@@ -212,7 +212,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-loofinity-teal mt-1 mr-3" />
                     <div>
                       <p className="font-semibold">Address</p>
-                      <p>123 Sanitation Drive<br />Clean City, CL 12345</p>
+                      <p>1 sterhout Street<br />Birchleigh, Kempton Park</p>
                     </div>
                   </div>
                   

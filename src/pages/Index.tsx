@@ -41,7 +41,7 @@ const featuredProducts = [
     category: "toilets",
     description: "Premium portable toilet with luxury amenities, perfect for upscale events.",
     featured: true,
-    location: "276 Brand Road, President Park, Midrand, Gauteng"
+    location: "1 Ysterhout Street, Birchleigh, Kempton Park"
   },
   {
     id: "standard-portable",
@@ -51,7 +51,7 @@ const featuredProducts = [
     rating: 4.7,
     category: "toilets",
     description: "Durable and reliable standard portable toilet for any setting.",
-    location: "276 Brand Road, President Park, Midrand, Gauteng"
+    location: "1 Ysterhout Street, Birchleigh, Kempton Park"
   },
   {
     id: "eco-clean",
@@ -61,7 +61,7 @@ const featuredProducts = [
     rating: 4.8,
     category: "chemicals",
     description: "Environmentally friendly cleaning solution that eliminates odors and breaks down waste.",
-    location: "276 Brand Road, President Park, Midrand, Gauteng"
+    location: "1 Ysterhout Street, Birchleigh, Kempton Park"
   },
   {
     id: "fresh-scent",
@@ -71,7 +71,7 @@ const featuredProducts = [
     rating: 4.6,
     category: "chemicals",
     description: "Long-lasting deodorizer that keeps portable toilets smelling fresh.",
-    location: "276 Brand Road, President Park, Midrand, Gauteng"
+    location: "1 Ysterhout Street, Birchleigh, Kempton Park"
   }
 ];
 

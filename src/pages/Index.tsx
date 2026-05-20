@@ -66,7 +66,7 @@ const featuredProducts = [
   {
     id: "fresh-scent",
     name: "Fresh Scent Deodorizer",
-    image: "https://scontent.fjnb1-1.fna.fbcdn.net/v/t39.30808-6/633886429_1401284668679683_5688342328576302160_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGmlvZKOmphsrBS2-aR0HK70MfNc3oulsrQx81zei6Wyh_T6c7BkzpYgPSaTuPwQXE8saQU6MtQIrJZ89DB4uIi&_nc_ohc=2jLyPqnLlWoQ7kNvwFUjeA6&_nc_oc=Adk0CUflNkDL22jpabrqDbkRLRmcKcccKcIuGNg5TybM51kgB69cTgBxWWV1YpgyIGM&_nc_zt=23&_nc_ht=scontent.fjnb1-1.fna&_nc_gid=BAn-ddHHLi9Bbo7OOOjqZw&oh=00_AfuTv3jVGAisRzTdulgEdQ-n71dmbJGFbaWUMvOE56ECAg&oe=6992C2D2",
+    image: "https://scontent.fjnb9-1.fna.fbcdn.net/v/t39.30808-6/633886429_1401284668679683_5688342328576302160_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGmlvZKOmphsrBS2-aR0HK70MfNc3oulsrQx81zei6Wyh_T6c7BkzpYgPSaTuPwQXE8saQU6MtQIrJZ89DB4uIi&_nc_ohc=IDZuriih7iAQ7kNvwFc47NU&_nc_oc=AdpaZhMVBtr7nIoZe8ZyNST9_PWj_Tn7QZf8Qian5khJjOfU08B2MsMIlV5jXzI72Hg&_nc_zt=23&_nc_ht=scontent.fjnb9-1.fna&_nc_gid=SIkogTo40C52mQVb5vzlYQ&_nc_ss=7b2a8&oh=00_Af4zXfp7qqdUOZ_sqIdGm5qdvPzsYVzWG6vuo1tOicKT1w&oe=6A134D12",
     price: 499.99,
     rating: 4.6,
     category: "chemicals",

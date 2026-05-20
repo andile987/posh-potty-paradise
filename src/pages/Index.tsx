@@ -35,7 +35,7 @@ const featuredProducts = [
   {
     id: "luxury-portable",
     name: "VIP Luxury Mobile Toilet",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1nXxUPNmQonzVdsduqSRw-7PtGQzFQvNWw&s",
+    image: "https://z-p3-scontent.fjnb12-1.fna.fbcdn.net/v/t39.30808-6/669569464_1451064117035071_4408218962977773573_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeECXNLeIDFuM7BwNeRHfwTsoDMIs_CKE1ugMwiz8IoTW8v11WGm9MzPYoV1e6-U_hqA3d9H6SLECqNDcz6zYLA5&_nc_ohc=vQxnx1-syJ0Q7kNvwEAcJH3&_nc_oc=AdrpaDj379_6mIv5DobLS8ey4AmsaMh8TcQCEtoVRtgAp7-tFJLSa1eTEJH52QdaOEI&_nc_zt=23&_nc_ht=z-p3-scontent.fjnb12-1.fna&_nc_gid=N60_Dy6US_IchpslVCM4BQ&_nc_ss=7b2a8&oh=00_Af6TRp5pDC1lbPDEpefyIVr6gpB4jD-z5_NJeS3wHkdm1Q&oe=6A132FA1",
     price: 54999.99,
     rating: 4.9,
     category: "toilets",

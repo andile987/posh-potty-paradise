@@ -26,9 +26,9 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6 text-loofinity-teal">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2015, Loofinity was born from a simple observation: the portable toilet industry 
+                Founded in 2025, Loofinity was born from a simple observation: the portable toilet industry 
                 was stuck in the past, with little innovation or focus on user experience. Our founder, 
-                Michael Johnson, saw an opportunity to transform the industry by introducing premium, 
+                Andile Mthimkulu, saw an opportunity to transform the industry by introducing premium, 
                 comfortable, and environmentally responsible portable toilet solutions.
               </p>
               <p className="text-gray-600 mb-4">

@@ -26,7 +26,7 @@ const MaintenanceDialog = () => {
             Site under maintenance
           </DialogTitle>
           <DialogDescription>
-            We are sorry for the inconvenience. Please check back soon.
+            We are sorry for the inconvenience. Feel free to continue browsing our products and services.
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>

@@ -87,8 +87,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  276 Brand Road, President Park,<br />
-                  Midrand, Gauteng
+                  1 Ysterhout Street, Birchleigh, Kempton Park
                 </span>
               </li>
               <li className="flex items-center">

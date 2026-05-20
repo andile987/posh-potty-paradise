@@ -116,35 +116,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Team */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <SectionHeading 
-            title="Our Leadership Team" 
-            subtitle="Meet the people behind Loofinity's success"
-            centered
-          />
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
-                <div className="h-64 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1 text-gray-800">{member.name}</h3>
-                  <p className="text-loofinity-teal font-medium mb-4">{member.position}</p>
-                  <p className="text-gray-600">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Our Achievements */}
       <section className="py-16 bg-gray-50">

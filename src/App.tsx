@@ -13,7 +13,6 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Cart from "./pages/Cart";
 import Payment from "./pages/Payment";
-import MaintenanceDialog from "./components/MaintenanceDialog";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +21,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <MaintenanceDialog />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
